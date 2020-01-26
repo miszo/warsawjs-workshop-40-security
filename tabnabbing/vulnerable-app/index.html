@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Vulnerable app</title>
+</head>
+<body>
+<h1>Vulnerable app</h1>
+<a href="../attacker-one-app/index.html"
+   target="_blank"
+   rel="noopener noreferrer"
+>
+    Kittens!
+</a>
+<button id="puppies">Puppies</button>
+<script>
+    puppies.addEventListener('click', () => {
+        window.open(
+            '../attacker-one-app/index.html',
+            '_blank',
+            'noopener=1,noreferrer=1'
+        )
+    });
+</script>
+</body>
+</html>
