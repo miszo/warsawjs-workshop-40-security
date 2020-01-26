@@ -11,8 +11,7 @@ app.use(bodyParser());
 app.use(helmet.contentSecurityPolicy({
     directives: {
         defaultSrc: ["'self'"],
-        styleSrc: ["'self'"],
-        fontSrc: ["'self'"]
+        styleSrc: ["'self'"]
     }
 }));
 app.use((express.static('.')));
