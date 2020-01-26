@@ -1,7 +1,7 @@
 # warsawjs-workshop-40-security
 
 ## Sections:
-* [clickjacking]('./clickjacking')
+* [clickjacking](./clickjacking)
 * [man-in-the-middle]('./man-in-the-middle')
 * [path-traversal]('./path-traversal')
 * [tabnabbing]('./tabnabbing')
