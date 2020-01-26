@@ -1,12 +1,11 @@
 {
-  "name": "clickjacking-vulnerable-app",
+  "name": "path-traversal-vulnerable-app",
   "version": "1.0.0",
   "scripts": {
     "start": "nodemon index.js"
   },
   "dependencies": {
-    "express": "4.17.1",
-    "helmet": "3.21.2"
+    "express": "4.17.1"
   },
   "devDependencies": {
     "nodemon": "2.0.2"

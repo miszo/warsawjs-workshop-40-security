@@ -1,5 +1,5 @@
 {
-  "name": "attacker-app",
+  "name": "clickjacking-attacker-app",
   "version": "1.0.0",
   "scripts": {
     "start": "nodemon index.js"
